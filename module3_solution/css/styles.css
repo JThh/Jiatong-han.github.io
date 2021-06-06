@@ -1,0 +1,101 @@
+body {
+  font-size: 16px;
+  color: #000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  height:50px;
+  position: relative;
+}
+.navbar-brand {
+  padding-top: 15px;
+  float: left;
+  width: 85vw;
+  margin-left: 0;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  color: #000;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: -10px;
+  padding-top: 10px;
+}
+#nav-list div {
+  clear: both;
+  font-size: 1.2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding-color: black;
+  border: 1px solid #000;
+  width: 100vw;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  float: left;
+}
+
+/* END HEADER */
+
+
+
+/* HOME PAGE */
+.container {
+	float: left;
+	clear: both;
+	width: 100vw;
+}
+
+.container h2.body-title {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.container .body-section {
+	background-color: #808080;
+}
+.container .body-section .section-title {
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+.container .body-section .section-content {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container .body-section a.back-to-top {
+	margin-bottom: 20px;
+	padding-left: 10px;
+	font-size: 1.2em;
+
+}
+
+/* END HOME PAGE */
+
+
+
+
+
+
+
+
+
+
+
